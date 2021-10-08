@@ -28,9 +28,10 @@ header{
 
 .menu a:hover {
     
-    background-color:dimgray ;
+    background-color:dimgray;
     color: ghostwhite;
     border-radius: 10px;
+    box-shadow: -0.3em 0 .4em rgb(10, 10, 10);
 }
 
 
@@ -83,9 +84,10 @@ header a img{
     box-shadow: -1em 0 .4em black;
     border-radius: 25px;
     display: flex;
- width: 800px;
- margin-left: 555px;
- background-color: gold;
+    background-color: gold;
+   padding: 40px;
+   width: 800px;
+   margin: auto;
 
 }
 
