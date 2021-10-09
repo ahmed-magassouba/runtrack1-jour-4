@@ -75,8 +75,13 @@ header a img{
     height: 400px;
     border-radius: 25px;
     color: blue;
-    padding: 30px;
+    padding: 35px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
+.elm3:hover{
+    transform: scale(1.2);
+}
+
 
 .elm2{
     text-align: center;
@@ -88,7 +93,11 @@ header a img{
    padding: 40px;
    width: 800px;
    margin: auto;
+   transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
 
+.elm2:hover{
+    transform: scale(1.2);
 }
 
 
@@ -103,7 +112,7 @@ header a img{
 .sect1{
     display: flex;
     justify-content: space-around;
-    padding: 25px;
+    padding: 35px;
 }
 .sect11{
     display: flex;
